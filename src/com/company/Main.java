@@ -8,15 +8,15 @@ public class Main {
     {
         Scanner scan=new Scanner(System.in);
 
-        double t;
+        double c;
         System.out.println("Podaj liczbę a: ");
         double a=scan.nextDouble();
         System.out.println("Podaj liczbe b: ");
         double b=scan.nextDouble();
 
-        t=a;
+        c=a;
         a=b;
-        b=t;
+        b=c;
 
         System.out.println("a = " + a + ", b = " +b );
 
